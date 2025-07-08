@@ -1,0 +1,17 @@
+#computercode {
+    background-color:aqua;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+#responsive {
+    font-family: 'Courier New', Courier, monospace;
+}
+#sample {
+    color: blueviolet;
+    background-color: yellowgreen;
+    padding: 10px;
+    width: 500;
+    font-size: 20px;
+}
+footer {
+    background-color: grey;
+}
