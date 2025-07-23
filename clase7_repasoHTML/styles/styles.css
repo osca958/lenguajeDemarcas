@@ -19,6 +19,21 @@
     width: 30%;
     margin-left: 35%; /*35 porque es 35+35 mas los 30 de la propia imagen*/
 }
+.logo2 img{
+    width: 100%;
+}
+.logo2{
+    width: 40%;
+    margin-left: 30%;
+}
+.descripcion{
+    border: 2px lightgrey solid;
+    padding: 2%;
+    font-size: 1.2vw;
+    background-color: #f9f9f9;
+    width: 50%;
+    margin-left: 25%;
+}
 /*
 ¿Cómo trabajar con imágenes responsive?
 1. Metemos la imagen en un div
