@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.encabezado{
+    border:3px red solid;
+    width: 50%; /*px->%*/
+    text-align: center;
+    margin-left: 25%; /*Es el 25% porque es la mitad del ancho que le hemos dado*/
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font: size 2vw; /*Esto es un tamaño que se adapta al tamaño de la pantalla*/
+
+}
+.logo img{
+    width: 100%;
+}
+.logo{
+    width: 30%;
+    margin-left: 35%; /*35 porque es 35+35 mas los 30 de la propia imagen*/
+}
+/*
+¿Cómo trabajar con imágenes responsive?
+1. Metemos la imagen en un div
+2. Aplicamos que el 100% de la imagen sea el 100% del div
+3. Damos a la clase la anchura que queramos que tenga la imagen
+
+
+*/
