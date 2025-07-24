@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.div1 {
+    background-color: green;
+    padding-bottom: 15%;
+    width: 50%;
+    float: left;
+}
+.div2 {
+    background-color: blue; /*El borde ocupa espacio tambien*/
+    padding-bottom: 15%;
+    width: 50%;
+    float: right;
+}
+
+@media screen and (max-width:600px){
+    .div1,.div2{
+        float: none;
+        width: 100%;
+    }
+}
