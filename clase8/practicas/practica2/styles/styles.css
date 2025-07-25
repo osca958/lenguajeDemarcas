@@ -2,21 +2,42 @@
     margin:0;
     padding:0;
 }
+body{
+    font-family: 'Mifuente';
+}
 section{
     padding: 5%;
     text-align: center;
+
 }
+article:hover{
+    background-color: aqua; /*Cambia el color al poner el cursor encima*/
+    transition: 1s; /*Tardará 1 segundo en hacerlo */
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 5px 0px 22px 12px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 0px 22px 12px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 0px 22px 12px rgba(0,0,0,0.75);
+
+}
+
 article {
     width: 90%;
     padding: 1rem;
     margin-bottom: 2rem;
     background-color: antiquewhite;
+    font-family: 'Mifuente';
+    
 }
 @media screen and (min-width:600px) { 
     article{
         width: 45%;
         display: inline-block;
     }  
+}
+@font-face {
+    font-family: 'Mifuente';
+    src: url("../tip/mi_fuente.ttf");
 }
 
 @media screen and (min-width:1024px) {
