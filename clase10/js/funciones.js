@@ -22,14 +22,14 @@ operacion(20,50);
 
 function retorno1(){
     let numero = 5;
-    return numero;
+    return numero;          //Este lo podemos almacenar en una variable porque devuelve un valor
 }
 console.log(retorno1());
 
 //Funciones con return y con parámetros
 
 function retorno2(numero){
-    return numero;
+    return numero;              //Este no
 }
 console.log (retorno2(20));
 
