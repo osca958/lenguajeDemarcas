@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <nombre>Oscar</nombre>
+        <apellido>Coque</apellido>
+        <numero>682391047</numero>
+        <correo>oscae@gmail.com</correo>
+        <direccion>
+            <ciudad>Azuqueca de henares</ciudad>
+            <estado>España</estado>
+            <zip>19200</zip>
+        </direccion>
+    </empleado>
+</empresa>
