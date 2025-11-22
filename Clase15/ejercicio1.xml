@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 1: Biblioteca
+ Crea un XML que represente una biblioteca con varios libros.
+ Requisitos mínimos:
+ Elemento raíz: <biblioteca>
+ Cada <libro> contiene: <titulo>, <autor>, <anio>, <genero>
+ El orden de los elementos detro de <libro> debe ser exactamente: titulo, autor, anio, genero -->
+
+ <!DOCTYPE biblioteca SYSTEM "ejercicio1.dtd">
+
+<biblioteca>
+    <libro id="e1">
+        <titulo></titulo>
+        <autor></autor>
+        <anio></anio>
+        <genero></genero>
+    </libro>
+</biblioteca>

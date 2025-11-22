@@ -1,0 +1,9 @@
+
+<!ELEMENT biblioteca (libro+)> <!--el más indica minimo un libro y máximo infinito-->
+<!ELEMENT libro (titulo, autor+, anio?, genero)> <!-- titulo no tiene nada: 1. Autor puede haber mas de uno: +
+     anio puede ser voluntario ponerlo: ?. genero solo puede haber uno: 1 -->
+<!ATTLIST libro id ID #REQUIRED> <!-- Esto es para declrar un atributo-->
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>

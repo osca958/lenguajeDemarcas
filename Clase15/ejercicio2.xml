@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ejercicio 2: empresa
+ Crea un XML de empleados y un DTD esterno empresa.dtd
+ Requisitos
+ Raiz<empresa>
+ cada <empleado> contiene: <nombre>, <puesto>, < salario>
+ Atributos:
+ empleado @id de tipo ID (obligatorio y único)
+ <puesto> debe ser una enumeración: (DEV | SYS | HR |MKT)
+ <salario> debe tener un atributo @moneda con valores (EUR |USD)
+ -->
+ <!DOCTYPE empresa SYSTEM "ejercicio2.dtd">
+ <empresa>
+    <empleado id="E1">
+        <nombre></nombre>
+        <puesto></puesto>
+        <salario moneda = "EUR"></salario>
+    </empleado>
+ </empresa>

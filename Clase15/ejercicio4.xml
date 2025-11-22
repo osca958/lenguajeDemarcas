@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad SYSTEM "ejercicio4.dtd">
+
+<universidad>
+    <asignaturas>
+        <asignatura id="a1">
+            <nombre>Sistemas informaticos</nombre>
+            <creditos>12</creditos>
+        </asignatura>
+        <asignatura id="a2">
+            <nombre>Programacion</nombre>
+            <creditos>12</creditos>
+        </asignatura>
+    </asignaturas>
+    <alumnos>
+        <alumno nia="alum1">
+            <nombreAlumno>Oscar Coque</nombreAlumno>
+        </alumno>
+        <alumno nia="alum2">
+            <nombreAlumno>Lydia del teso</nombreAlumno>
+        </alumno>
+    </alumnos>
+    <matriculas>
+        <matricula alumno="alum1" asignatura="a1"/>
+        <matricula alumno="alum2" asignatura="a2"/>
+    </matriculas>
+</universidad>
