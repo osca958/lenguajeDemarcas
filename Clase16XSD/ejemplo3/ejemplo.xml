@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejemplo3.xsd">
+    <url>
+        <loc>https://www.ejemplo-de-abril-llaves.com</loc>
+        <lastmod>2016-09-30</lastmod>
+        <priority>0.8</priority>
+    </url>
+        <url>
+        <loc>https://www.ejemplo-de-abrir-llaves.com/contactar.html</loc>
+        <lastmod>2016-09-30</lastmod>
+        <priority>0.3</priority>
+    </url>
+        <url>
+        <loc>https://www.ejemplo-de-abril-llaves.com/productos/impresora</loc>
+        <lastmod>2016-09-30</lastmod>
+        <priority>0.5</priority>
+    </url>
+</urlset>
