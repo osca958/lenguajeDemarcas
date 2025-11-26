@@ -5,7 +5,7 @@
             <xs:sequence>
                 <xs:element name="pagina" maxOccurs="unbounded"> <!--maxOccurs indica el máximo de repeticiones-->
                     <xs:complexType>
-                        <xs:sequence> <!--si no importa el orden xs:all-->
+                        <xs:sequence> <!--si no importa el orden xs:all el orden importa. minOccurs 1 maxOccurs 1-->
                             <xs:element name="nombre" type="xs:string"/> 
                             <xs:element name="descripcion" type="xs:string"/>
                             <xs:choice>
