@@ -1,0 +1,6 @@
+minLength -> mínimo de carácteres -> xs:string
+maxLength -> máximo de carácteres -> xs:string
+minInclusive -> mínimo permitido (incluido) -> xs:integer, xs: decimal...
+maxInclusive -> máximo permitido (incluido) -> xs:integer, xs: decimal...
+minExclusive -> mínimo permitido (excluido) -> numéricos
+maxExclusive -> máximo permitdo (excluido) -> numéricos
