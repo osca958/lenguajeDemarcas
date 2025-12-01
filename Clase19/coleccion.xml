@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coleccion>
+    <cd>
+        <titulo>Empire Burlesque</titulo>
+        <artista>Bob Dylan</artista>
+        <precio>10.90</precio>
+    </cd>
+    <cd>
+        <titulo>Terral</titulo>
+        <artista>Pablo Alboran</artista>
+        <precio>40.99</precio>
+    </cd>
+    <cd>
+        <titulo>Prometo</titulo>
+        <artista>Pablo Alboran</artista>
+        <precio>45.99</precio>
+    </cd>
+</coleccion>

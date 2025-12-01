@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ies>
+    <nombre>Prometeo by the power</nombre>
+    <web>https://www.prometeo-fp.com</web>
+    <ciclos>
+        <ciclo id="ASIR">
+            <nombre>Administración de sistemas informáticos en la red</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2009"/>
+        </ciclo>
+        <ciclo id="DAM">
+            <nombre>Desarrollo de aplicaciones multiplataforma</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2010"/>
+        </ciclo>
+        <ciclo id="DAW">
+            <nombre>Desarrollo de aplicaciones web</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo año="2010"/>
+        </ciclo>
+        <ciclo id="SMR">
+            <nombre>Sistemas microinformáticos y redes</nombre>
+            <grado>Medio</grado>
+            <decretoTitulo año="2008"/>
+        </ciclo>
+    </ciclos>
+</ies>
